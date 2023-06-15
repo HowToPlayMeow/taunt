@@ -66,14 +66,14 @@ public Action:ShowMenu(client)
 	{
 		case TFClass_Scout:
 		{
-			AddMenuItem(menu, "1117", "Battin a Thousand [Scout]");
+			AddMenuItem(menu, "1117", "Battin' a Thousand [Scout]");
 			AddMenuItem(menu, "1119", "Deep Fried Desire [Scout]");
 			AddMenuItem(menu, "1168", "The Carlton [Scout]");
-			AddMenuItem(menu, "1197", "The Scooty Scoot [Scout]);
+			AddMenuItem(menu, "1197", "The Scooty Scoot [Scout]");
 			AddMenuItem(menu, "30572", "Boston Breakdance [Scout]");
-			AddMenuItem(menu, "30917", "The Trackmans Touchdown [Scout]");
+			AddMenuItem(menu, "30917", "The Trackman's Touchdown [Scout]");
 			AddMenuItem(menu, "30920", "The Bunnyhopper [Scout]");
-			AddMenuItem(menu, "30921", "Runners Rhythm [Scout]");
+			AddMenuItem(menu, "30921", "Runner's Rhythm [Scout]");
 			AddMenuItem(menu, "31156", "The Boston Boarder [Scout]");
 			AddMenuItem(menu, "31161", "Spin-to-Win [Scout]");
 			AddMenuItem(menu, "31233", "The Homerunner's Hobby [Scout]");
