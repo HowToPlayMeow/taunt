@@ -1,4 +1,4 @@
 # TF2_Taunt
 cmd:
-!taunt
-!taunts
+/n!taunt
+/n!taunts
