@@ -5,4 +5,4 @@
 !taunts
 
 # Dependencies
-:https://forums.alliedmods.net/showthread.php?t=242866
+:https://forums.alliedmods.net/showpost.php?p=2771253&postcount=431
