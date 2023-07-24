@@ -1,5 +1,8 @@
 # TF2_Taunt
-## cmd:
+## CMD:
 !taunt
 
 !taunts
+
+# Dependencies
+:https://forums.alliedmods.net/showthread.php?t=242866
