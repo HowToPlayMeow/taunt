@@ -97,6 +97,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31155", "Rocket Jockey [Soldier]");
 			AddMenuItem(menu, "31202", "The Profane Puppeteer [Soldier]");
 			AddMenuItem(menu, "31347", "Star-Spangled Strategy [Soldier]");
+			AddMenuItem(menu, "31381", "Neck Snap [Soldier]");
 		}
 		case TFClass_DemoMan:
 		{
@@ -108,6 +109,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31201", "The Drunken Sailor [Demoman]");
 			AddMenuItem(menu, "31291", "Drunk Mann's Cannon [Demoman]");
 			AddMenuItem(menu, "31292", "Shanty Shipmate [Demoman]");
+			AddMenuItem(menu, "31380", "Roar O'War [Demoman]");
 		}
 		case TFClass_Medic:
 		{
@@ -118,6 +120,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31203", "The Mannbulance! [Medic]");
 			AddMenuItem(menu, "31236", "Doctor's Defibrillators [Medic]");
 			AddMenuItem(menu, "31349", "The Head Doctor [Medic]");
+			AddMenuItem(menu, "31382", "Borrowed Bones [Medic]");
 		}	
 		case TFClass_Pyro:
 		{
@@ -139,6 +142,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31290", "The Travel Agent [Spy]");
 			AddMenuItem(menu, "31321", "Tailored Terminal [Spy]");
 			AddMenuItem(menu, "31351", "Tuefort Tango [Spy]");
+			AddMenuItem(menu, "31289", "Crypt Creeper [Spy]");
 		}
 		case TFClass_Engineer:
 		{
