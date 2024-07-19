@@ -83,10 +83,11 @@ public Action:ShowMenu(client)
 		case TFClass_Sniper:
 		{
 			AddMenuItem(menu, "1116",  "I See You [Sniper]");
-           		AddMenuItem(menu, "30609", "Killer Solo [Sniper]");
-           		AddMenuItem(menu, "30614", "Most Wanted [Sniper]");
+           	AddMenuItem(menu, "30609", "Killer Solo [Sniper]");
+           	AddMenuItem(menu, "30614", "Most Wanted [Sniper]");
 			AddMenuItem(menu, "30839", "Didgeridrongo [Sniper]");
 			AddMenuItem(menu, "31237", "Shooter's Stakeout [Sniper]");
+			AddMenuItem(menu, "31440", "Straight Shooter Tutor [Sniper]");
 		}
 		case TFClass_Soldier:
 		{
@@ -98,6 +99,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31202", "The Profane Puppeteer [Soldier]");
 			AddMenuItem(menu, "31347", "Star-Spangled Strategy [Soldier]");
 			AddMenuItem(menu, "31381", "Neck Snap [Soldier]");
+			AddMenuItem(menu, "31438", "Can It! [Soldier]");
 		}
 		case TFClass_DemoMan:
 		{
@@ -125,13 +127,14 @@ public Action:ShowMenu(client)
 		case TFClass_Pyro:
 		{
 			AddMenuItem(menu, "1112", "Party Trick [Pyro]");
-            	AddMenuItem(menu, "30570", "Pool Party [Pyro]");
+            AddMenuItem(menu, "30570", "Pool Party [Pyro]");
 			AddMenuItem(menu, "30763", "The Balloonibouncer [Pyro]");
 			AddMenuItem(menu, "30876", "The Headcase [Pyro]");
 			AddMenuItem(menu, "30919", "The Skating Scorche [Pyro]");
 			AddMenuItem(menu, "31157", "Scorcher's Solo [Pyro]");
 			AddMenuItem(menu, "31239", "The Hot Wheeler [Pyro]");
 			AddMenuItem(menu, "31322", "Roasty Toasty [Pyro]");
+			AddMenuItem(menu, "31439", "Cremator's Condolences [Pyro]");
 		}
 		case TFClass_Spy:
 		{
@@ -188,6 +191,7 @@ public Action:ShowMenu(client)
 	AddMenuItem(menu, "31348", "Killer Joke");
 	AddMenuItem(menu, "31412", "Cheers!");
 	AddMenuItem(menu, "31413", "Mourning Mercs");
+	AddMenuItem(menu, "31441", "Unleashed Rage");
 	
 	
 	DisplayMenu(menu, client, 20);
