@@ -79,12 +79,13 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31233", "The Homerunner's Hobby [Scout]");
 			AddMenuItem(menu, "31354", "The Killer Signature [Scout]");
 			AddMenuItem(menu, "31414", "Foul Play [Scout]");
+			AddMenuItem(menu, "31466", "Peace Out [Scout]");
 		}
 		case TFClass_Sniper:
 		{
 			AddMenuItem(menu, "1116",  "I See You [Sniper]");
-           		AddMenuItem(menu, "30609", "Killer Solo [Sniper]");
-           		AddMenuItem(menu, "30614", "Most Wanted [Sniper]");
+           	AddMenuItem(menu, "30609", "Killer Solo [Sniper]");
+           	AddMenuItem(menu, "30614", "Most Wanted [Sniper]");
 			AddMenuItem(menu, "30839", "Didgeridrongo [Sniper]");
 			AddMenuItem(menu, "31237", "Shooter's Stakeout [Sniper]");
 			AddMenuItem(menu, "31440", "Straight Shooter Tutor [Sniper]");
@@ -127,7 +128,7 @@ public Action:ShowMenu(client)
 		case TFClass_Pyro:
 		{
 			AddMenuItem(menu, "1112", "Party Trick [Pyro]");
-            		AddMenuItem(menu, "30570", "Pool Party [Pyro]");
+            AddMenuItem(menu, "30570", "Pool Party [Pyro]");
 			AddMenuItem(menu, "30763", "The Balloonibouncer [Pyro]");
 			AddMenuItem(menu, "30876", "The Headcase [Pyro]");
 			AddMenuItem(menu, "30919", "The Skating Scorche [Pyro]");
@@ -146,6 +147,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31321", "Tailored Terminal [Spy]");
 			AddMenuItem(menu, "31351", "Tuefort Tango [Spy]");
 			AddMenuItem(menu, "31289", "Crypt Creeper [Spy]");
+			AddMenuItem(menu, "31468", "The Punchline [Spy]");
 		}
 		case TFClass_Engineer:
 		{
@@ -166,6 +168,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31207", "Bare Knuckle Beatdown [Heavy]");
 			AddMenuItem(menu, "31320", "Russian Rubdown [Heavy]");
 			AddMenuItem(menu, "31352", "The Road Rager [Heavy]");
+			AddMenuItem(menu, "31465", "Crushing Defeat [Heavy]");
 		}
 	}
 
@@ -192,7 +195,7 @@ public Action:ShowMenu(client)
 	AddMenuItem(menu, "31412", "Cheers!");
 	AddMenuItem(menu, "31413", "Mourning Mercs");
 	AddMenuItem(menu, "31441", "Unleashed Rage");
-	
+	AddMenuItem(menu, "31467", "Commending Clap");
 	
 	DisplayMenu(menu, client, 20);
 }
