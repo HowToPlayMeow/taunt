@@ -113,6 +113,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31291", "Drunk Mann's Cannon [Demoman]");
 			AddMenuItem(menu, "31292", "Shanty Shipmate [Demoman]");
 			AddMenuItem(menu, "31380", "Roar O'War [Demoman]");
+			AddMenuItem(menu, "31493", "Fore-Head Slice [Demoman]");
 		}
 		case TFClass_Medic:
 		{
@@ -148,6 +149,7 @@ public Action:ShowMenu(client)
 			AddMenuItem(menu, "31351", "Tuefort Tango [Spy]");
 			AddMenuItem(menu, "31289", "Crypt Creeper [Spy]");
 			AddMenuItem(menu, "31468", "The Punchline [Spy]");
+			AddMenuItem(menu, "31491", "Curtain Call [Spy]");
 		}
 		case TFClass_Engineer:
 		{
@@ -196,6 +198,7 @@ public Action:ShowMenu(client)
 	AddMenuItem(menu, "31413", "Mourning Mercs");
 	AddMenuItem(menu, "31441", "Unleashed Rage");
 	AddMenuItem(menu, "31467", "Commending Clap");
+	AddMenuItem(menu, "31492", "Peace!");
 	
 	DisplayMenu(menu, client, 20);
 }
